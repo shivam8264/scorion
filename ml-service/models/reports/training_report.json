@@ -1,0 +1,1164 @@
+{
+  "search_seconds": 114.6,
+  "refit_seconds": 4.4,
+  "n_candidates": 14,
+  "cv_folds": 5,
+  "best_params": {
+    "objective": "binary:logistic",
+    "eval_metric": [
+      "logloss",
+      "auc"
+    ],
+    "tree_method": "hist",
+    "random_state": 42,
+    "colsample_bytree": 0.96875,
+    "gamma": 0.17699,
+    "learning_rate": 0.02968,
+    "max_depth": 3,
+    "min_child_weight": 8,
+    "n_estimators": 561,
+    "reg_alpha": 0.01466,
+    "reg_lambda": 1.12721,
+    "subsample": 0.94006
+  },
+  "best_cv_auc": 0.8668,
+  "fold_scores": [
+    0.8655,
+    0.8644,
+    0.8734,
+    0.8618,
+    0.8688
+  ],
+  "candidates": [
+    {
+      "rank": 1,
+      "mean_test_auc": 0.8668,
+      "std_test_auc": 0.004,
+      "mean_train_auc": 0.878,
+      "fit_time_s": 1.03,
+      "params": {
+        "colsample_bytree": 0.9687,
+        "gamma": 0.177,
+        "learning_rate": 0.0297,
+        "max_depth": 3,
+        "min_child_weight": 8,
+        "n_estimators": 462,
+        "reg_alpha": 0.0147,
+        "reg_lambda": 1.1272,
+        "subsample": 0.9401
+      }
+    },
+    {
+      "rank": 2,
+      "mean_test_auc": 0.8665,
+      "std_test_auc": 0.0039,
+      "mean_train_auc": 0.8856,
+      "fit_time_s": 1.31,
+      "params": {
+        "colsample_bytree": 0.7427,
+        "gamma": 0.5619,
+        "learning_rate": 0.0597,
+        "max_depth": 3,
+        "min_child_weight": 1,
+        "n_estimators": 594,
+        "reg_alpha": 0.9134,
+        "reg_lambda": 5.0546,
+        "subsample": 0.7196
+      }
+    },
+    {
+      "rank": 3,
+      "mean_test_auc": 0.8665,
+      "std_test_auc": 0.004,
+      "mean_train_auc": 0.8853,
+      "fit_time_s": 1.46,
+      "params": {
+        "colsample_bytree": 0.966,
+        "gamma": 1.7001,
+        "learning_rate": 0.0495,
+        "max_depth": 3,
+        "min_child_weight": 7,
+        "n_estimators": 656,
+        "reg_alpha": 0.1015,
+        "reg_lambda": 3.6758,
+        "subsample": 0.857
+      }
+    },
+    {
+      "rank": 4,
+      "mean_test_auc": 0.8664,
+      "std_test_auc": 0.0041,
+      "mean_train_auc": 0.8912,
+      "fit_time_s": 0.82,
+      "params": {
+        "colsample_bytree": 0.7099,
+        "gamma": 1.1225,
+        "learning_rate": 0.0433,
+        "max_depth": 5,
+        "min_child_weight": 1,
+        "n_estimators": 254,
+        "reg_alpha": 0.0483,
+        "reg_lambda": 5.0353,
+        "subsample": 0.8228
+      }
+    },
+    {
+      "rank": 5,
+      "mean_test_auc": 0.8664,
+      "std_test_auc": 0.0042,
+      "mean_train_auc": 0.8941,
+      "fit_time_s": 1.56,
+      "params": {
+        "colsample_bytree": 0.9895,
+        "gamma": 0.4655,
+        "learning_rate": 0.024,
+        "max_depth": 5,
+        "min_child_weight": 7,
+        "n_estimators": 493,
+        "reg_alpha": 0.0599,
+        "reg_lambda": 0.5746,
+        "subsample": 0.8626
+      }
+    },
+    {
+      "rank": 6,
+      "mean_test_auc": 0.8659,
+      "std_test_auc": 0.0041,
+      "mean_train_auc": 0.9082,
+      "fit_time_s": 1.66,
+      "params": {
+        "colsample_bytree": 0.8091,
+        "gamma": 0.8551,
+        "learning_rate": 0.0211,
+        "max_depth": 7,
+        "min_child_weight": 3,
+        "n_estimators": 312,
+        "reg_alpha": 0.4867,
+        "reg_lambda": 2.077,
+        "subsample": 0.8471
+      }
+    },
+    {
+      "rank": 7,
+      "mean_test_auc": 0.8658,
+      "std_test_auc": 0.004,
+      "mean_train_auc": 0.877,
+      "fit_time_s": 0.93,
+      "params": {
+        "colsample_bytree": 0.6832,
+        "gamma": 1.1354,
+        "learning_rate": 0.0213,
+        "max_depth": 4,
+        "min_child_weight": 10,
+        "n_estimators": 293,
+        "reg_alpha": 0.6584,
+        "reg_lambda": 7.2974,
+        "subsample": 0.8593
+      }
+    },
+    {
+      "rank": 8,
+      "mean_test_auc": 0.865,
+      "std_test_auc": 0.0041,
+      "mean_train_auc": 0.9031,
+      "fit_time_s": 0.87,
+      "params": {
+        "colsample_bytree": 0.8782,
+        "gamma": 0.2787,
+        "learning_rate": 0.0676,
+        "max_depth": 5,
+        "min_child_weight": 4,
+        "n_estimators": 262,
+        "reg_alpha": 0.0017,
+        "reg_lambda": 1.1911,
+        "subsample": 0.7064
+      }
+    },
+    {
+      "rank": 9,
+      "mean_test_auc": 0.8649,
+      "std_test_auc": 0.0039,
+      "mean_train_auc": 0.9116,
+      "fit_time_s": 1.2,
+      "params": {
+        "colsample_bytree": 0.6734,
+        "gamma": 0.6085,
+        "learning_rate": 0.0576,
+        "max_depth": 6,
+        "min_child_weight": 9,
+        "n_estimators": 298,
+        "reg_alpha": 0.0375,
+        "reg_lambda": 1.6565,
+        "subsample": 0.6663
+      }
+    },
+    {
+      "rank": 10,
+      "mean_test_auc": 0.8642,
+      "std_test_auc": 0.0039,
+      "mean_train_auc": 0.9102,
+      "fit_time_s": 1.23,
+      "params": {
+        "colsample_bytree": 0.6022,
+        "gamma": 1.6309,
+        "learning_rate": 0.0831,
+        "max_depth": 5,
+        "min_child_weight": 3,
+        "n_estimators": 538,
+        "reg_alpha": 0.0657,
+        "reg_lambda": 8.0189,
+        "subsample": 0.8779
+      }
+    },
+    {
+      "rank": 11,
+      "mean_test_auc": 0.8607,
+      "std_test_auc": 0.0043,
+      "mean_train_auc": 0.9458,
+      "fit_time_s": 1.22,
+      "params": {
+        "colsample_bytree": 0.7498,
+        "gamma": 1.9014,
+        "learning_rate": 0.0874,
+        "max_depth": 7,
+        "min_child_weight": 5,
+        "n_estimators": 352,
+        "reg_alpha": 0.0218,
+        "reg_lambda": 0.6746,
+        "subsample": 0.8107
+      }
+    },
+    {
+      "rank": 12,
+      "mean_test_auc": 0.857,
+      "std_test_auc": 0.0039,
+      "mean_train_auc": 0.9582,
+      "fit_time_s": 2.07,
+      "params": {
+        "colsample_bytree": 0.8733,
+        "gamma": 1.22,
+        "learning_rate": 0.1072,
+        "max_depth": 5,
+        "min_child_weight": 1,
+        "n_estimators": 669,
+        "reg_alpha": 0.0035,
+        "reg_lambda": 4.8053,
+        "subsample": 0.7988
+      }
+    },
+    {
+      "rank": 13,
+      "mean_test_auc": 0.854,
+      "std_test_auc": 0.0045,
+      "mean_train_auc": 0.9924,
+      "fit_time_s": 2.81,
+      "params": {
+        "colsample_bytree": 0.7335,
+        "gamma": 0.2857,
+        "learning_rate": 0.0742,
+        "max_depth": 7,
+        "min_child_weight": 2,
+        "n_estimators": 593,
+        "reg_alpha": 0.3143,
+        "reg_lambda": 0.9446,
+        "subsample": 0.7136
+      }
+    },
+    {
+      "rank": 14,
+      "mean_test_auc": 0.8498,
+      "std_test_auc": 0.0028,
+      "mean_train_auc": 0.9879,
+      "fit_time_s": 1.88,
+      "params": {
+        "colsample_bytree": 0.6682,
+        "gamma": 0.1301,
+        "learning_rate": 0.1353,
+        "max_depth": 6,
+        "min_child_weight": 2,
+        "n_estimators": 514,
+        "reg_alpha": 0.0011,
+        "reg_lambda": 0.9985,
+        "subsample": 0.7344
+      }
+    }
+  ],
+  "best_iteration": 561,
+  "learning_curve": [
+    {
+      "iteration": 0,
+      "train_logloss": 0.48737,
+      "val_logloss": 0.48752,
+      "train_auc": 0.75358,
+      "val_auc": 0.74525
+    },
+    {
+      "iteration": 5,
+      "train_logloss": 0.46558,
+      "val_logloss": 0.46585,
+      "train_auc": 0.80327,
+      "val_auc": 0.7974
+    },
+    {
+      "iteration": 10,
+      "train_logloss": 0.4489,
+      "val_logloss": 0.44946,
+      "train_auc": 0.81505,
+      "val_auc": 0.80852
+    },
+    {
+      "iteration": 15,
+      "train_logloss": 0.43527,
+      "val_logloss": 0.43615,
+      "train_auc": 0.82172,
+      "val_auc": 0.815
+    },
+    {
+      "iteration": 20,
+      "train_logloss": 0.4241,
+      "val_logloss": 0.42519,
+      "train_auc": 0.82738,
+      "val_auc": 0.8222
+    },
+    {
+      "iteration": 25,
+      "train_logloss": 0.41474,
+      "val_logloss": 0.41592,
+      "train_auc": 0.83153,
+      "val_auc": 0.82718
+    },
+    {
+      "iteration": 30,
+      "train_logloss": 0.4064,
+      "val_logloss": 0.40788,
+      "train_auc": 0.83729,
+      "val_auc": 0.83167
+    },
+    {
+      "iteration": 35,
+      "train_logloss": 0.39931,
+      "val_logloss": 0.4011,
+      "train_auc": 0.84132,
+      "val_auc": 0.835
+    },
+    {
+      "iteration": 40,
+      "train_logloss": 0.3932,
+      "val_logloss": 0.39526,
+      "train_auc": 0.84443,
+      "val_auc": 0.83782
+    },
+    {
+      "iteration": 45,
+      "train_logloss": 0.38767,
+      "val_logloss": 0.38986,
+      "train_auc": 0.84691,
+      "val_auc": 0.84017
+    },
+    {
+      "iteration": 50,
+      "train_logloss": 0.38277,
+      "val_logloss": 0.38517,
+      "train_auc": 0.84901,
+      "val_auc": 0.84237
+    },
+    {
+      "iteration": 55,
+      "train_logloss": 0.37848,
+      "val_logloss": 0.38106,
+      "train_auc": 0.85128,
+      "val_auc": 0.8446
+    },
+    {
+      "iteration": 60,
+      "train_logloss": 0.3745,
+      "val_logloss": 0.37747,
+      "train_auc": 0.85301,
+      "val_auc": 0.84597
+    },
+    {
+      "iteration": 65,
+      "train_logloss": 0.37095,
+      "val_logloss": 0.37413,
+      "train_auc": 0.85476,
+      "val_auc": 0.84763
+    },
+    {
+      "iteration": 70,
+      "train_logloss": 0.36766,
+      "val_logloss": 0.37091,
+      "train_auc": 0.85604,
+      "val_auc": 0.84913
+    },
+    {
+      "iteration": 75,
+      "train_logloss": 0.36469,
+      "val_logloss": 0.36819,
+      "train_auc": 0.85726,
+      "val_auc": 0.85017
+    },
+    {
+      "iteration": 80,
+      "train_logloss": 0.36195,
+      "val_logloss": 0.36572,
+      "train_auc": 0.85891,
+      "val_auc": 0.85171
+    },
+    {
+      "iteration": 85,
+      "train_logloss": 0.35944,
+      "val_logloss": 0.36318,
+      "train_auc": 0.86018,
+      "val_auc": 0.85325
+    },
+    {
+      "iteration": 90,
+      "train_logloss": 0.35712,
+      "val_logloss": 0.36097,
+      "train_auc": 0.86137,
+      "val_auc": 0.85452
+    },
+    {
+      "iteration": 95,
+      "train_logloss": 0.35491,
+      "val_logloss": 0.35886,
+      "train_auc": 0.86212,
+      "val_auc": 0.85534
+    },
+    {
+      "iteration": 100,
+      "train_logloss": 0.353,
+      "val_logloss": 0.35706,
+      "train_auc": 0.86297,
+      "val_auc": 0.85623
+    },
+    {
+      "iteration": 105,
+      "train_logloss": 0.35121,
+      "val_logloss": 0.3554,
+      "train_auc": 0.86377,
+      "val_auc": 0.8571
+    },
+    {
+      "iteration": 110,
+      "train_logloss": 0.34949,
+      "val_logloss": 0.35367,
+      "train_auc": 0.86434,
+      "val_auc": 0.85793
+    },
+    {
+      "iteration": 115,
+      "train_logloss": 0.3479,
+      "val_logloss": 0.35208,
+      "train_auc": 0.86516,
+      "val_auc": 0.85893
+    },
+    {
+      "iteration": 120,
+      "train_logloss": 0.3464,
+      "val_logloss": 0.35063,
+      "train_auc": 0.86583,
+      "val_auc": 0.85975
+    },
+    {
+      "iteration": 125,
+      "train_logloss": 0.34501,
+      "val_logloss": 0.34945,
+      "train_auc": 0.86635,
+      "val_auc": 0.86016
+    },
+    {
+      "iteration": 130,
+      "train_logloss": 0.34374,
+      "val_logloss": 0.34831,
+      "train_auc": 0.86679,
+      "val_auc": 0.86071
+    },
+    {
+      "iteration": 135,
+      "train_logloss": 0.34253,
+      "val_logloss": 0.34717,
+      "train_auc": 0.86747,
+      "val_auc": 0.86142
+    },
+    {
+      "iteration": 140,
+      "train_logloss": 0.34141,
+      "val_logloss": 0.34616,
+      "train_auc": 0.86795,
+      "val_auc": 0.86188
+    },
+    {
+      "iteration": 145,
+      "train_logloss": 0.34033,
+      "val_logloss": 0.34511,
+      "train_auc": 0.86837,
+      "val_auc": 0.86246
+    },
+    {
+      "iteration": 150,
+      "train_logloss": 0.33937,
+      "val_logloss": 0.34428,
+      "train_auc": 0.86879,
+      "val_auc": 0.86291
+    },
+    {
+      "iteration": 155,
+      "train_logloss": 0.3384,
+      "val_logloss": 0.34346,
+      "train_auc": 0.86916,
+      "val_auc": 0.86323
+    },
+    {
+      "iteration": 160,
+      "train_logloss": 0.3375,
+      "val_logloss": 0.34259,
+      "train_auc": 0.86943,
+      "val_auc": 0.86365
+    },
+    {
+      "iteration": 165,
+      "train_logloss": 0.33669,
+      "val_logloss": 0.34184,
+      "train_auc": 0.86982,
+      "val_auc": 0.86407
+    },
+    {
+      "iteration": 170,
+      "train_logloss": 0.33594,
+      "val_logloss": 0.34117,
+      "train_auc": 0.87011,
+      "val_auc": 0.86441
+    },
+    {
+      "iteration": 175,
+      "train_logloss": 0.33519,
+      "val_logloss": 0.3405,
+      "train_auc": 0.87041,
+      "val_auc": 0.86476
+    },
+    {
+      "iteration": 180,
+      "train_logloss": 0.33447,
+      "val_logloss": 0.33986,
+      "train_auc": 0.87062,
+      "val_auc": 0.86501
+    },
+    {
+      "iteration": 185,
+      "train_logloss": 0.3338,
+      "val_logloss": 0.33928,
+      "train_auc": 0.87091,
+      "val_auc": 0.86528
+    },
+    {
+      "iteration": 190,
+      "train_logloss": 0.33318,
+      "val_logloss": 0.33879,
+      "train_auc": 0.87112,
+      "val_auc": 0.86549
+    },
+    {
+      "iteration": 195,
+      "train_logloss": 0.33258,
+      "val_logloss": 0.33829,
+      "train_auc": 0.87138,
+      "val_auc": 0.86577
+    },
+    {
+      "iteration": 200,
+      "train_logloss": 0.33201,
+      "val_logloss": 0.33787,
+      "train_auc": 0.87162,
+      "val_auc": 0.8659
+    },
+    {
+      "iteration": 205,
+      "train_logloss": 0.33146,
+      "val_logloss": 0.33746,
+      "train_auc": 0.87179,
+      "val_auc": 0.86603
+    },
+    {
+      "iteration": 210,
+      "train_logloss": 0.33091,
+      "val_logloss": 0.33699,
+      "train_auc": 0.87195,
+      "val_auc": 0.86621
+    },
+    {
+      "iteration": 215,
+      "train_logloss": 0.33042,
+      "val_logloss": 0.33659,
+      "train_auc": 0.87214,
+      "val_auc": 0.8664
+    },
+    {
+      "iteration": 220,
+      "train_logloss": 0.32992,
+      "val_logloss": 0.33617,
+      "train_auc": 0.87231,
+      "val_auc": 0.86658
+    },
+    {
+      "iteration": 225,
+      "train_logloss": 0.3295,
+      "val_logloss": 0.3358,
+      "train_auc": 0.87251,
+      "val_auc": 0.86678
+    },
+    {
+      "iteration": 230,
+      "train_logloss": 0.32908,
+      "val_logloss": 0.3355,
+      "train_auc": 0.87268,
+      "val_auc": 0.8669
+    },
+    {
+      "iteration": 235,
+      "train_logloss": 0.32868,
+      "val_logloss": 0.33516,
+      "train_auc": 0.87283,
+      "val_auc": 0.86706
+    },
+    {
+      "iteration": 240,
+      "train_logloss": 0.32828,
+      "val_logloss": 0.33488,
+      "train_auc": 0.87305,
+      "val_auc": 0.8672
+    },
+    {
+      "iteration": 245,
+      "train_logloss": 0.32791,
+      "val_logloss": 0.33461,
+      "train_auc": 0.87315,
+      "val_auc": 0.8673
+    },
+    {
+      "iteration": 250,
+      "train_logloss": 0.32755,
+      "val_logloss": 0.33433,
+      "train_auc": 0.8733,
+      "val_auc": 0.86744
+    },
+    {
+      "iteration": 255,
+      "train_logloss": 0.3272,
+      "val_logloss": 0.3341,
+      "train_auc": 0.87342,
+      "val_auc": 0.86752
+    },
+    {
+      "iteration": 260,
+      "train_logloss": 0.32688,
+      "val_logloss": 0.33389,
+      "train_auc": 0.87356,
+      "val_auc": 0.86762
+    },
+    {
+      "iteration": 265,
+      "train_logloss": 0.32653,
+      "val_logloss": 0.33363,
+      "train_auc": 0.87372,
+      "val_auc": 0.86773
+    },
+    {
+      "iteration": 270,
+      "train_logloss": 0.32619,
+      "val_logloss": 0.33342,
+      "train_auc": 0.87383,
+      "val_auc": 0.8678
+    },
+    {
+      "iteration": 275,
+      "train_logloss": 0.32589,
+      "val_logloss": 0.33318,
+      "train_auc": 0.87397,
+      "val_auc": 0.86792
+    },
+    {
+      "iteration": 280,
+      "train_logloss": 0.32563,
+      "val_logloss": 0.33304,
+      "train_auc": 0.87407,
+      "val_auc": 0.86796
+    },
+    {
+      "iteration": 285,
+      "train_logloss": 0.32537,
+      "val_logloss": 0.33288,
+      "train_auc": 0.87415,
+      "val_auc": 0.86799
+    },
+    {
+      "iteration": 290,
+      "train_logloss": 0.32506,
+      "val_logloss": 0.33267,
+      "train_auc": 0.87426,
+      "val_auc": 0.86807
+    },
+    {
+      "iteration": 295,
+      "train_logloss": 0.32483,
+      "val_logloss": 0.3325,
+      "train_auc": 0.87437,
+      "val_auc": 0.86815
+    },
+    {
+      "iteration": 300,
+      "train_logloss": 0.32459,
+      "val_logloss": 0.33237,
+      "train_auc": 0.87446,
+      "val_auc": 0.86819
+    },
+    {
+      "iteration": 305,
+      "train_logloss": 0.32437,
+      "val_logloss": 0.33221,
+      "train_auc": 0.87455,
+      "val_auc": 0.86825
+    },
+    {
+      "iteration": 310,
+      "train_logloss": 0.32415,
+      "val_logloss": 0.33207,
+      "train_auc": 0.87468,
+      "val_auc": 0.86837
+    },
+    {
+      "iteration": 315,
+      "train_logloss": 0.3239,
+      "val_logloss": 0.33191,
+      "train_auc": 0.87476,
+      "val_auc": 0.86841
+    },
+    {
+      "iteration": 320,
+      "train_logloss": 0.32369,
+      "val_logloss": 0.33173,
+      "train_auc": 0.87486,
+      "val_auc": 0.86853
+    },
+    {
+      "iteration": 325,
+      "train_logloss": 0.3235,
+      "val_logloss": 0.33159,
+      "train_auc": 0.87494,
+      "val_auc": 0.86861
+    },
+    {
+      "iteration": 330,
+      "train_logloss": 0.3233,
+      "val_logloss": 0.33144,
+      "train_auc": 0.87504,
+      "val_auc": 0.86874
+    },
+    {
+      "iteration": 335,
+      "train_logloss": 0.32313,
+      "val_logloss": 0.33132,
+      "train_auc": 0.8751,
+      "val_auc": 0.86879
+    },
+    {
+      "iteration": 340,
+      "train_logloss": 0.32294,
+      "val_logloss": 0.33117,
+      "train_auc": 0.87518,
+      "val_auc": 0.86889
+    },
+    {
+      "iteration": 345,
+      "train_logloss": 0.32277,
+      "val_logloss": 0.33109,
+      "train_auc": 0.87526,
+      "val_auc": 0.86891
+    },
+    {
+      "iteration": 350,
+      "train_logloss": 0.32259,
+      "val_logloss": 0.33103,
+      "train_auc": 0.87533,
+      "val_auc": 0.86895
+    },
+    {
+      "iteration": 355,
+      "train_logloss": 0.32241,
+      "val_logloss": 0.33094,
+      "train_auc": 0.87542,
+      "val_auc": 0.86899
+    },
+    {
+      "iteration": 360,
+      "train_logloss": 0.32225,
+      "val_logloss": 0.33086,
+      "train_auc": 0.8755,
+      "val_auc": 0.86905
+    },
+    {
+      "iteration": 365,
+      "train_logloss": 0.32208,
+      "val_logloss": 0.33075,
+      "train_auc": 0.87558,
+      "val_auc": 0.86908
+    },
+    {
+      "iteration": 370,
+      "train_logloss": 0.3219,
+      "val_logloss": 0.33071,
+      "train_auc": 0.87566,
+      "val_auc": 0.86912
+    },
+    {
+      "iteration": 375,
+      "train_logloss": 0.32175,
+      "val_logloss": 0.33063,
+      "train_auc": 0.87574,
+      "val_auc": 0.86918
+    },
+    {
+      "iteration": 380,
+      "train_logloss": 0.32159,
+      "val_logloss": 0.33057,
+      "train_auc": 0.87582,
+      "val_auc": 0.86918
+    },
+    {
+      "iteration": 385,
+      "train_logloss": 0.32146,
+      "val_logloss": 0.3305,
+      "train_auc": 0.87589,
+      "val_auc": 0.86921
+    },
+    {
+      "iteration": 390,
+      "train_logloss": 0.32132,
+      "val_logloss": 0.33046,
+      "train_auc": 0.87596,
+      "val_auc": 0.86923
+    },
+    {
+      "iteration": 395,
+      "train_logloss": 0.32116,
+      "val_logloss": 0.33038,
+      "train_auc": 0.87606,
+      "val_auc": 0.86926
+    },
+    {
+      "iteration": 400,
+      "train_logloss": 0.32101,
+      "val_logloss": 0.3303,
+      "train_auc": 0.87614,
+      "val_auc": 0.86931
+    },
+    {
+      "iteration": 405,
+      "train_logloss": 0.32089,
+      "val_logloss": 0.33023,
+      "train_auc": 0.87621,
+      "val_auc": 0.86937
+    },
+    {
+      "iteration": 410,
+      "train_logloss": 0.32076,
+      "val_logloss": 0.33017,
+      "train_auc": 0.87628,
+      "val_auc": 0.86943
+    },
+    {
+      "iteration": 415,
+      "train_logloss": 0.32063,
+      "val_logloss": 0.33013,
+      "train_auc": 0.87634,
+      "val_auc": 0.86946
+    },
+    {
+      "iteration": 420,
+      "train_logloss": 0.3205,
+      "val_logloss": 0.33011,
+      "train_auc": 0.8764,
+      "val_auc": 0.86947
+    },
+    {
+      "iteration": 425,
+      "train_logloss": 0.32036,
+      "val_logloss": 0.33009,
+      "train_auc": 0.87649,
+      "val_auc": 0.86946
+    },
+    {
+      "iteration": 430,
+      "train_logloss": 0.32023,
+      "val_logloss": 0.33004,
+      "train_auc": 0.87657,
+      "val_auc": 0.86949
+    },
+    {
+      "iteration": 435,
+      "train_logloss": 0.32011,
+      "val_logloss": 0.33001,
+      "train_auc": 0.87664,
+      "val_auc": 0.8695
+    },
+    {
+      "iteration": 440,
+      "train_logloss": 0.32001,
+      "val_logloss": 0.32999,
+      "train_auc": 0.87668,
+      "val_auc": 0.86952
+    },
+    {
+      "iteration": 445,
+      "train_logloss": 0.31992,
+      "val_logloss": 0.33,
+      "train_auc": 0.87672,
+      "val_auc": 0.86952
+    },
+    {
+      "iteration": 450,
+      "train_logloss": 0.31981,
+      "val_logloss": 0.32994,
+      "train_auc": 0.8768,
+      "val_auc": 0.86957
+    },
+    {
+      "iteration": 455,
+      "train_logloss": 0.3197,
+      "val_logloss": 0.32992,
+      "train_auc": 0.87686,
+      "val_auc": 0.86955
+    },
+    {
+      "iteration": 460,
+      "train_logloss": 0.31959,
+      "val_logloss": 0.32985,
+      "train_auc": 0.87694,
+      "val_auc": 0.86962
+    },
+    {
+      "iteration": 465,
+      "train_logloss": 0.31946,
+      "val_logloss": 0.32978,
+      "train_auc": 0.87702,
+      "val_auc": 0.86967
+    },
+    {
+      "iteration": 470,
+      "train_logloss": 0.31935,
+      "val_logloss": 0.32974,
+      "train_auc": 0.87709,
+      "val_auc": 0.8697
+    },
+    {
+      "iteration": 475,
+      "train_logloss": 0.31925,
+      "val_logloss": 0.32974,
+      "train_auc": 0.87715,
+      "val_auc": 0.86967
+    },
+    {
+      "iteration": 480,
+      "train_logloss": 0.31917,
+      "val_logloss": 0.32972,
+      "train_auc": 0.87721,
+      "val_auc": 0.86968
+    },
+    {
+      "iteration": 485,
+      "train_logloss": 0.31907,
+      "val_logloss": 0.32968,
+      "train_auc": 0.87727,
+      "val_auc": 0.86969
+    },
+    {
+      "iteration": 490,
+      "train_logloss": 0.31898,
+      "val_logloss": 0.32968,
+      "train_auc": 0.87732,
+      "val_auc": 0.86967
+    },
+    {
+      "iteration": 495,
+      "train_logloss": 0.31886,
+      "val_logloss": 0.3296,
+      "train_auc": 0.87739,
+      "val_auc": 0.86973
+    },
+    {
+      "iteration": 500,
+      "train_logloss": 0.31878,
+      "val_logloss": 0.32955,
+      "train_auc": 0.87744,
+      "val_auc": 0.86975
+    },
+    {
+      "iteration": 505,
+      "train_logloss": 0.31869,
+      "val_logloss": 0.3295,
+      "train_auc": 0.87751,
+      "val_auc": 0.86981
+    },
+    {
+      "iteration": 510,
+      "train_logloss": 0.3186,
+      "val_logloss": 0.3295,
+      "train_auc": 0.87757,
+      "val_auc": 0.86981
+    },
+    {
+      "iteration": 515,
+      "train_logloss": 0.31851,
+      "val_logloss": 0.32946,
+      "train_auc": 0.87764,
+      "val_auc": 0.86984
+    },
+    {
+      "iteration": 520,
+      "train_logloss": 0.31844,
+      "val_logloss": 0.32948,
+      "train_auc": 0.87769,
+      "val_auc": 0.86983
+    },
+    {
+      "iteration": 525,
+      "train_logloss": 0.31833,
+      "val_logloss": 0.32946,
+      "train_auc": 0.87776,
+      "val_auc": 0.86985
+    },
+    {
+      "iteration": 530,
+      "train_logloss": 0.31821,
+      "val_logloss": 0.32939,
+      "train_auc": 0.87785,
+      "val_auc": 0.86991
+    },
+    {
+      "iteration": 535,
+      "train_logloss": 0.31813,
+      "val_logloss": 0.32942,
+      "train_auc": 0.87791,
+      "val_auc": 0.86986
+    },
+    {
+      "iteration": 540,
+      "train_logloss": 0.31805,
+      "val_logloss": 0.32941,
+      "train_auc": 0.87795,
+      "val_auc": 0.86988
+    },
+    {
+      "iteration": 545,
+      "train_logloss": 0.31796,
+      "val_logloss": 0.32936,
+      "train_auc": 0.87802,
+      "val_auc": 0.86993
+    },
+    {
+      "iteration": 550,
+      "train_logloss": 0.3179,
+      "val_logloss": 0.32935,
+      "train_auc": 0.87806,
+      "val_auc": 0.86993
+    },
+    {
+      "iteration": 555,
+      "train_logloss": 0.31783,
+      "val_logloss": 0.32933,
+      "train_auc": 0.8781,
+      "val_auc": 0.86996
+    },
+    {
+      "iteration": 560,
+      "train_logloss": 0.31775,
+      "val_logloss": 0.32931,
+      "train_auc": 0.87816,
+      "val_auc": 0.86998
+    },
+    {
+      "iteration": 565,
+      "train_logloss": 0.31768,
+      "val_logloss": 0.32935,
+      "train_auc": 0.87822,
+      "val_auc": 0.86993
+    },
+    {
+      "iteration": 570,
+      "train_logloss": 0.31758,
+      "val_logloss": 0.32937,
+      "train_auc": 0.8783,
+      "val_auc": 0.86992
+    },
+    {
+      "iteration": 575,
+      "train_logloss": 0.3175,
+      "val_logloss": 0.32936,
+      "train_auc": 0.87835,
+      "val_auc": 0.86991
+    },
+    {
+      "iteration": 580,
+      "train_logloss": 0.31743,
+      "val_logloss": 0.32936,
+      "train_auc": 0.8784,
+      "val_auc": 0.8699
+    },
+    {
+      "iteration": 585,
+      "train_logloss": 0.31736,
+      "val_logloss": 0.32937,
+      "train_auc": 0.87845,
+      "val_auc": 0.86989
+    },
+    {
+      "iteration": 590,
+      "train_logloss": 0.3173,
+      "val_logloss": 0.32936,
+      "train_auc": 0.87849,
+      "val_auc": 0.8699
+    },
+    {
+      "iteration": 595,
+      "train_logloss": 0.31722,
+      "val_logloss": 0.32934,
+      "train_auc": 0.87855,
+      "val_auc": 0.86991
+    },
+    {
+      "iteration": 600,
+      "train_logloss": 0.31714,
+      "val_logloss": 0.3293,
+      "train_auc": 0.87862,
+      "val_auc": 0.86995
+    },
+    {
+      "iteration": 605,
+      "train_logloss": 0.31705,
+      "val_logloss": 0.32929,
+      "train_auc": 0.87867,
+      "val_auc": 0.86996
+    },
+    {
+      "iteration": 610,
+      "train_logloss": 0.31698,
+      "val_logloss": 0.32934,
+      "train_auc": 0.87872,
+      "val_auc": 0.86992
+    },
+    {
+      "iteration": 615,
+      "train_logloss": 0.31689,
+      "val_logloss": 0.32934,
+      "train_auc": 0.87879,
+      "val_auc": 0.8699
+    },
+    {
+      "iteration": 620,
+      "train_logloss": 0.3168,
+      "val_logloss": 0.32932,
+      "train_auc": 0.87886,
+      "val_auc": 0.86991
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+.page { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); min-height: 100vh; }
+
+.aside {
+  background: var(--color-sidebar);
+  color: var(--color-sidebar-text);
+  padding: var(--space-12) var(--space-10);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--space-6);
+}
+.brand { display: flex; align-items: center; gap: var(--space-3); color: #fff; font-family: var(--font-serif); font-weight: var(--weight-bold); font-size: var(--text-lg); }
+.mark { display: grid; place-items: center; width: 40px; height: 40px; border-radius: var(--radius-md); background: var(--color-primary); }
+.statement {
+  color: #fff;
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 3.4vw, 3rem);
+  line-height: 1.1;
+  max-width: 16ch;
+}
+.lede { max-width: 52ch; line-height: var(--leading-relaxed); }
+.facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-4); margin: var(--space-4) 0 0; border-top: 1px solid #2c3a57; padding-top: var(--space-5); }
+.facts dt { color: #fff; font-weight: var(--weight-semibold); font-size: var(--text-sm); }
+.facts dd { margin: 4px 0 0; font-size: var(--text-sm); }
+
+.formSide { display: flex; align-items: center; justify-content: center; padding: var(--space-8) var(--space-5); background: var(--color-surface); }
+.form { width: 100%; max-width: 400px; display: flex; flex-direction: column; gap: var(--space-4); }
+.formTitle { font-size: var(--text-xl); font-family: var(--font-serif); }
+.switch { font-size: var(--text-sm); color: var(--color-ink-soft); }
+
+.demo { margin-top: var(--space-4); padding-top: var(--space-4); border-top: var(--border); display: flex; flex-direction: column; gap: var(--space-2); }
+.demo p { font-size: var(--text-sm); color: var(--color-ink-soft); }
+.demoBtn {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-2) var(--space-3);
+  border: var(--border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-alt);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--text-sm);
+}
+.demoBtn:hover { border-color: var(--color-primary); }
+.demoBtn span { color: var(--color-ink-soft); }
+
+@media (max-width: 900px) {
+  .page { grid-template-columns: 1fr; }
+  .aside { padding: var(--space-8) var(--space-5); }
+  .facts { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,10 @@
+.panel { margin-top: var(--space-4); }
+.filters { padding: var(--space-4) var(--space-5); border-bottom: var(--border); background: var(--color-surface-alt); max-width: 360px; }
+.scroll { overflow-x: auto; }
+.table th, .table td { padding: var(--space-3) var(--space-4); text-align: left; border-bottom: var(--border); font-size: var(--text-sm); white-space: nowrap; }
+.table th { font-size: var(--text-xs); color: var(--color-ink-soft); }
+.sub { display: block; font-size: var(--text-xs); color: var(--color-ink-muted); }
+.right { text-align: right !important; }
+.table code { font-size: var(--text-xs); color: var(--color-ink-soft); }
+.detail td { background: var(--color-surface-alt); white-space: normal; }
+.detail pre { margin: 0; font-size: var(--text-xs); max-height: 320px; overflow: auto; }

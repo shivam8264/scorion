@@ -1,0 +1,22 @@
+{
+  "German Credit (UCI)": {
+    "status": "ok",
+    "rows": 1000,
+    "attributes": 9,
+    "default_rate": 0.3,
+    "models": {
+      "Logistic Regression": {
+        "cv_auc_mean": 0.7457,
+        "cv_auc_std": 0.0189
+      },
+      "XGBoost": {
+        "cv_auc_mean": 0.7532,
+        "cv_auc_std": 0.0259
+      }
+    }
+  },
+  "Home Credit Default Risk (Kaggle)": {
+    "status": "skipped",
+    "reason": "data/application_train.csv"
+  }
+}

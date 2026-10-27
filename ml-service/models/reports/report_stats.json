@@ -1,0 +1,48 @@
+{
+  "rows": 80000,
+  "split": {
+    "train": 64000,
+    "fit": 57600,
+    "val": 6400,
+    "test": 16000
+  },
+  "default_rate": 0.1945,
+  "default_rate_by_gender": {
+    "female": 0.2015,
+    "male": 0.1906
+  },
+  "default_rate_by_region": {
+    "rural": 0.2122,
+    "urban": 0.1728
+  },
+  "sparse_share": 0.0543,
+  "gender_mix": {
+    "male": 0.6386,
+    "female": 0.3614
+  },
+  "region_mix": {
+    "rural": 0.5504,
+    "urban": 0.4496
+  },
+  "n_encoded_features": 28,
+  "leakage_check": {
+    "protected_columns_in_features": [],
+    "pass": true
+  },
+  "label_shuffle_auc": 0.483,
+  "shap_direction_correlation": {
+    "transaction_regularity": -0.967,
+    "bill_payment_consistency": -0.99,
+    "mobile_recharge_regularity": -0.987,
+    "savings_ratio": -0.985,
+    "debt_to_income": 0.966,
+    "emi_to_income": 0.969,
+    "digital_tenure_months": -0.92
+  },
+  "shap_pairwise_rank_correlation": {
+    "gender": 0.9977,
+    "gender_top5_identical_set": true,
+    "region": 0.9842,
+    "region_top5_identical_set": true
+  }
+}
