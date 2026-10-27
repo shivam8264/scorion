@@ -36,16 +36,6 @@ XGBoost and LightGBM are statistically tied on AUC (overlapping 95% bootstrap in
 XGBoost has the best Brier score and the best 5-fold CV AUC (0.8668 ± 0.004), so it is the
 production model. Synthetic-data metrics are illustrative, not production performance.
 
-## Quick start
-
-```bash
-docker compose up --build            # Mongo + ML service + API + web on http://localhost:8080
-docker compose exec server npm run seed
-```
 
 Demo logins after seeding: `admin@demo.com / Admin@1234`, `officer@demo.com / Officer@1234`,
 `applicant@demo.com / Applicant@1234`.
-
-Running without Docker, retraining the model and running tests are covered in
-[docs/SETUP_GUIDE.md](docs/SETUP_GUIDE.md). Every module is explained in
-[docs/MODULE_DOCUMENTATION.md](docs/MODULE_DOCUMENTATION.md).
